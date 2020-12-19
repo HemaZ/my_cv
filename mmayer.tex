@@ -1,0 +1,234 @@
+%%%%%%%%%%%%%%%%%
+% This is an example CV created using altacv.cls (v1.1.5, 1 December 2018) written by
+% LianTze Lim (liantze@gmail.com), based on the
+% Cv created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
+%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% If you are using \orcid or academicons
+%% icons, make sure you have the academicons
+%% option here, and compile with XeLaTeX
+%% or LuaLaTeX.
+% \documentclass[10pt,a4paper,academicons]{altacv}
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[10pt,a4paper,ragged2e]{altacv}
+
+%% AltaCV uses the fontawesome and academicon fonts
+%% and packages.
+%% See texdoc.net/pkg/fontawecome and http://texdoc.net/pkg/academicons for full list of symbols. You MUST compile with XeLaTeX or LuaLaTeX if you want to use academicons.
+
+% Change the page layout if you need to
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=0.25cm,bottom=0.75cm}
+
+% Change the font if you want to, depending on whether
+% you're using pdflatex or xelatex/lualatex
+\ifxetexorluatex
+  % If using xelatex or lualatex:
+  \setmainfont{Carlito}
+  \usepackage{hyperref}
+  \usepackage{xcolor}
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+\else
+  % If using pdflatex:
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+\fi
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Ibrahim Essam Abdelmonem}
+	\tagline{Mechatronics \& Robotics Engineer.}
+% Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
+\photo{4cm}{hema3}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \email{ibrahim.essam1995@gmail.com}
+   \phone{+201110731015}
+    \location{Cairo, Egypt}
+      \linkedin{\href{https://www.linkedin.com/in/ibrahimessam}{https://www.linkedin.com/in/ibrahimessam}}
+       \github{\href{https://github.com/HemaZ}{github.com/HemaZ}} 
+        \homepage{\href{ibrahimessam.com}{ibrahimessam.com}}% I'm just making this up though.
+%   \orcid{orcid.org/0000-0000-0000-0000} % Obviously making this up too. If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+\cvsection[page1sidebar]{Experience}
+\cvevent{Planning and Control Engineer (Contractor)}{AeroVect}{11/2020 - Ongoing}{Remotely}
+\begin{itemize}
+\item Developing The motion planning and control software stack.
+\item Integrating low level control on the vehicle. 
+\item Developing simulations for testing and verification.
+\item Integrating ROS with the other software components.
+	\item \code{Key Technologies ROS, Control, Autonomous Driving}.
+
+\end{itemize}
+
+\divider
+
+\cvevent{Robotics Software Engineer}{Freelancing}{10/2020 - Ongoing}{Cairo, Egypt}
+\begin{itemize}
+\item Developing several Robotics applications for the clients.
+\item Implementing the state of the art autonomous robotics algorithms. 
+\item Creating Software/Hardware architecture for new projects.
+\item Scrum master for several projects.
+	\item \code{Key Technologies ROS, AWS, Embedded Boards}.
+
+\end{itemize}
+
+\divider
+
+\cvevent{R\&D Software Engineer}{Avelabs}{09/2018 - Ongoing}{Cairo, Egypt}
+\begin{itemize}
+\item Developer Advocate For Yonohub ( A cloud-based system for  Autonomous Vehicles, ADAS, and Robotics  \href{https://yonohub.com/}{yonohub.com} ). 
+\item Creating tech content for publication as articles, tutorials and showcase apps to effectively demonstrate use cases of Yonohub.
+\item Developing new Blocks from the state of the art ML/DL and ADAS Algorithms.
+\item Preparing Hardware for Local Deployment (Nvidia Jetson AGX Xavier, Raspberry Pi).
+\item Preparing AVS Datasets for Yonohub, e.g. KITTI, DeepDrive, ApolloScape and Comma.ai
+\item AV's Sensor Product Algorithms Development Engineer.
+\item Creating ROS packages for the product.
+	\item \code{Key Technologies: Autonomous Vehicles, ROS, Autoware, ML/DL, Cloud, Embedded Boards}.
+
+\end{itemize}
+
+\divider
+
+\cvevent{Bachelor Thesis and Internship}{Daimler AG - Mercedes-Benz R\&D}{02/2017 - 08/2017}{Sindelfingen, Germany}
+\begin{itemize}
+\item Devleoping a Test Robot for Touch Devices Testing. 
+\item Hardware (Robot Construction,Kinematics and Touch Devices)
+\item Software (CANoe,CAN-bus,Databases and The Test System)
+\item Making Tests on The Touch Devices with the Robot to analyze the state
+and develop improvements.
+\item  Implementing new Algorithms and Data structures for the Robot in MATLAB.
+\item Programming a Graphical User Interface for the System
+\item \code{Key Technologies: Delta Robots, MATLAB, CANoe}.
+\end{itemize}
+\divider
+
+
+
+
+
+\clearpage
+
+\cvsection[page2sidebar]{Projects}
+\begin{itemize}
+\item \textbf{Pure pursuit ROS package for path tracking.}
+\href{https://github.com/HemaZ/pure_pursuit}{GitHub}
+\item \textbf{Author of "Intro. to ROS2" Guided project.}
+\href{https://www.coursera.org/projects/ros2-intro}{Coursera}
+\item \textbf{ROSbag2Videos, Extract videos from ROS bags.}
+\href{https://github.com/HemaZ/rosbag_2_videos}{Github}
+\item \textbf{Teaching an online ROS2 course on Youtube.}
+\href{https://www.youtube.com/playlist?list=PLWIFvNcdSDQupEsNLnAnCI6MwTqvGgkC1}{Playlist}
+\item \textbf{pclutils a C++ library for working with PointClouds.}
+\href{https://github.com/HemaZ/pcl_utils}{Github}
+\item \textbf{BaristaBot a robotics simulation package based on ROS and Gazebo.}
+\href{https://github.com/HemaZ/BaristaBot}{Github}
+\item \textbf{CarSim SFML and ROS based Car Simulator.}
+\href{https://github.com/HemaZ/CarSim}{Github}
+\item \textbf{Concurrent Traffic Simulation.}
+\href{https://github.com/HemaZ/Concurrent-Traffic-Simulation-CPP}{Github}
+\item \textbf{Linux System Monitor C++.}
+\href{https://github.com/HemaZ/CppND-System-Monitor}{Github}
+\item \textbf{Route Planning Project using A* C++.}
+\href{https://github.com/HemaZ/CppND-Route-Planning-Project}{Github}
+\item \textbf{Unscented Kalman Filter to estimate the state of multiple cars.}
+\href{https://github.com/HemaZ/SFND_Unscented_Kalman_Filter}{Github}
+\item \textbf{Particles Filter C++ Implementation.}
+\href{https://github.com/HemaZ/particles_filter}{Github}
+\item \textbf{Time To Collision System (TTC) based on Lidar and Camera.}
+\href{https://github.com/HemaZ/SFND_3D_Object_Tracking}{Github}
+
+\item \textbf{PointClouds Obstacles Detection, Segmentation and Clustering}
+\href{https://github.com/HemaZ/SFND_Lidar_Obstacle_Detection}{Github}
+
+\item \textbf{Jupyter-ROS (Contributor)  ROS Support for jupyter notebooks}
+\href{https://github.com/RoboStack/jupyter-ros}{Github}
+
+\item \textbf{Longitudinal and Lateral Control in CARLA Simulator}
+\href{https://github.com/HemaZ/carla-longlat-control}{Github} --- \href{https://www.youtube.com/watch?v=_ONfGpo1h-4}{Video}
+
+\item \textbf{Deep Reinforcement Learning DQN Agent Playing Space Invaders }
+\href{https://github.com/HemaZ/Deep-Reinforcement-Learning}{Github} --- \href{https://www.youtube.com/watch?v=yR3SW-NdS-k&t=3s}{Video}
+
+\item \textbf{Road Semantic Segmentation Using Fully Convolutional Network (FCN) }
+\href{https://github.com/HemaZ/sem-seg}{Github}
+
+\item \textbf{Building and Simulating TurtleBot using ROS and Raspberry Pi}
+\href{https://github.com/HemaZ/AMR_ROS}{Github} --- \href{https://www.youtube.com/watch?v=ThAjbMSuvAo}{Video}
+\item \textbf{Optimal LQG Control of Wind Turbine using
+Kalman Filter}
+
+\item \textbf{Non-Linear Controller (Feedback Linearization) for 2D Plotter Robot Arm}
+
+\item \textbf{PID Control of Two-Wheeled Self balancing Robot .}
+\href{https://www.youtube.com/watch?v=lp5exim_Jro}{Video}
+
+\item \textbf{Yu-Gi-Oh Video Game in Java}
+\href{https://github.com/HemaZ/yu-gi-oh-java}{Github} --- \href{https://www.youtube.com/watch?v=wY9EOFwh1F0}{Video}
+\end{itemize}
+
+\cvsection[]{Honors \& Awards}
+\cvevent{Academic Achievement Full Scholarship}{The German University in Cairo}{2013-2018}{Cairo, Egypt}
+
+\divider
+
+\cvevent{Ranked 7th in Thanwya Amma (High School)}{The Egyptian Ministry of Education}{2013}{Cairo, Egypt}
+
+\divider
+
+
+%% If the NEXT page doesn't start with a \cvsection but you'd
+%% still like to add a sidebar, then use this command on THIS
+%% page to add it. The optional argument lets you pull up the
+%% sidebar a bit so that it looks aligned with the top of the
+%% main column.
+% \addnextpagesidebar[-1ex]{page3sidebar}
+
+
+\end{document}

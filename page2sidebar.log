@@ -1,0 +1,432 @@
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2019.12.9)  18 JAN 2020 01:08
+ restricted system commands enabled.
+**page2sidebar.tex
+(./page2sidebar.tex
+LaTeX2e <2017-04-15>
+Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
+Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
+llection.(using write cache: /home/hema/.texlive2017/texmf-var/luatex-cache/gene
+ric)(using read cache: /var/lib/texmf/luatex-cache/generic /home/hema/.texlive20
+17/texmf-var/luatex-cache/generic)
+luaotfload | conf : Root cache directory is /home/hema/.texlive2017/texmf-var/lu
+atex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
+-resolved path “/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader
+-2017-02-11.lua”.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version “3.027”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 4
+luaotfload | conf : Root cache directory is /home/hema/.texlive2017/texmf-var/lu
+atex-cache/generic/names.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 0.095 seconds
+Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
+! Undefined control sequence.
+l.1 \cvsection
+            {Online Courses}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \cvsection{O
+              nline Courses}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--2
+[]Online
+ []
+
+! Undefined control sequence.
+l.4 \item{\href
+             {https://www.coursera.org/account/accomplishments/certificate/N...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.6 \item{\href
+             {https://www.coursera.org/account/accomplishments/certificate/W...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.8 \item{\href
+             {https://courses.edx.org/certificates/72dac216a4e9446fa57929219...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.10 \item{\href
+              {https://courses.edx.org/certificates/3d94e47ded1e49649d358c7d...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.12 \item{\href
+              {https://www.coursera.org/account/accomplishments/specializati...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.12 ...mplishments/specialization/PLESFRLGX57Y?utm_
+                                                  medium=certificate&utm_sou...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 12.
+! Misplaced alignment tab character &.
+l.12 ...ization/PLESFRLGX57Y?utm_medium=certificate&
+                                                  utm_source=link&utm_campai...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.12 ...X57Y?utm_medium=certificate&utm_source=link&
+                                                  utm_campaign=copybutton_ce...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.12 ...ce=link&utm_campaign=copybutton_certificate&
+                                                  utm_term=long}{Machine Lea...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Extra }, or forgotten $.
+l.12 ...mpaign=copybutton_certificate&utm_term=long}
+                                                  {Machine Learning with Ten...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.12 ...g}{Machine Learning with TensorFlow on GCP}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.13 
+   
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.13 
+   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (45.9626pt too wide) in paragraph at lines 12--13
+https://www.coursera.org/account/accomplishments/specialization/PLESFRLGX57Y?ut
+m$[][]\OML/cmm/m/it/10 edium \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (105.41832pt too wide) in paragraph at lines 12--13
+\OML/cmm/m/it/10 certificateutm[]ource \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (89.85309pt too wide) in paragraph at lines 12--13
+\OML/cmm/m/it/10 linkutm[]ampaign \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (145.84747pt too wide) in paragraph at lines 12--13
+\OML/cmm/m/it/10 copybutton[]ertificateutm[]erm \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (211.66498pt too wide) in paragraph at lines 12--13
+\OML/cmm/m/it/10 long[][]$ 
+ []
+
+! Undefined control sequence.
+l.14 \item{\href
+              {http://www.linkedin.com/learning/python-parallel-programming-...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.16 \item{\href
+              {https://www.coursera.org/account/accomplishments/verify/G5QLQ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.16 ...unt/accomplishments/verify/G5QLQYHBYCJR?utm_
+                                                  medium=certificate&utm_sou...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.16 .../verify/G5QLQYHBYCJR?utm_medium=certificate&
+                                                  utm_source=link&utm_campai...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.16 ...YCJR?utm_medium=certificate&utm_source=link&
+                                                  utm_campaign=copybutton_ce...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.16 ...ce=link&utm_campaign=copybutton_certificate&
+                                                  utm_term=long}{Intro to FP...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Extra }, or forgotten $.
+l.16 ...mpaign=copybutton_certificate&utm_term=long}
+                                                  {Intro to FPGA Design for ...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.16 ...{Intro to FPGA Design for Embedded Systems}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.17 
+   
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.17 
+   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (45.9626pt too wide) in paragraph at lines 16--17
+https://www.coursera.org/account/accomplishments/verify/G5QLQYHBYCJR?utm$[][]\O
+ML/cmm/m/it/10 edium \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (105.41832pt too wide) in paragraph at lines 16--17
+\OML/cmm/m/it/10 certificateutm[]ource \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (89.85309pt too wide) in paragraph at lines 16--17
+\OML/cmm/m/it/10 linkutm[]ampaign \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (145.84747pt too wide) in paragraph at lines 16--17
+\OML/cmm/m/it/10 copybutton[]ertificateutm[]erm \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (215.47372pt too wide) in paragraph at lines 16--17
+\OML/cmm/m/it/10 long[][]$ 
+ []
+
+! Undefined control sequence.
+l.19 \item{\href
+              {https://www.coursera.org/account/accomplishments/certificate/...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.20 \item{\href
+              {https://www.coursera.org/account/accomplishments/certificate/...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.21 \end{itemize}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.21 \end{itemize}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Undefined control sequence.
+l.23 \cvsection
+             {Languages}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 23--24
+[]Languages 
+ []
+
+! Undefined control sequence.
+l.25 \item Arabic  \includegraphics
+                                 [scale=0.3]{img/5stars.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.26 \item English \includegraphics
+                                 [scale=0.3]{img/4stars.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.27 \item German  \includegraphics
+                                 [scale=0.3]{img/2stars.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+! Emergency stop.
+<*> page2sidebar.tex
+                 
+*** (job aborted, no legal \end found)
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 23 strings out of 494480
+ 100000,89155 words of node,token memory allocated 10466 words of node memory still in use:
+   79 hlist, 14 local_par, 1 dir, 4 math, 200 glue, 46 kern, 53 penalty, 1209 gl
+yph, 89 attribute, 35 glue_spec, 89 attribute_list nodes
+   avail lists: 2:5,3:90,4:7,5:12,7:3,8:111,10:6
+ 4260 multiletter control sequences out of 65536+600000
+ 24 fonts using 1213415 bytes
+ 18i,2n,12p,238b,113s stack positions out of 5000i,500n,10000p,200000b,100000s
+!  ==> Fatal error occurred, no output PDF file produced!
