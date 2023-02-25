@@ -68,16 +68,16 @@
 \addbibresource{sample.bib}
 
 \begin{document}
-\name{Ibrahim Essam Abdelmonem}
-	\tagline{Mechatronics \& Robotics Engineer.}
+\name{Ibrahim Abdelmonem}
+	\tagline{Senior Software Engineer}
 % Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
 \photo{4cm}{hema3}
 \personalinfo{%
   % Not all of these are required!
   % You can add your own with \printinfo{symbol}{detail}
   \email{ibrahim.essam1995@gmail.com}
-   \phone{+201110731015}
-    \location{Cairo, Egypt}
+   \phone{+44 7443775637}
+    \location{Bristol, United Kingdom}
       \linkedin{\href{https://www.linkedin.com/in/ibrahimessam}{https://www.linkedin.com/in/ibrahimessam}}
        \github{\href{https://github.com/HemaZ}{github.com/HemaZ}} 
         \homepage{\href{ibrahimessam.com}{ibrahimessam.com}}% I'm just making this up though.
@@ -97,45 +97,53 @@
 %% not need to align the top of the contents to any
 %% \cvsection title in the "main" bar.
 \cvsection[page1sidebar]{Experience}
-\cvevent{Planning and Control Engineer (Contractor)}{AeroVect}{11/2020 - Ongoing}{Remotely}
-\begin{itemize}
-\item Developing The motion planning and control software stack.
-\item Integrating low level control on the vehicle. 
-\item Developing simulations for testing and verification.
-\item Integrating ROS with the other software components.
-	\item \code{Key Technologies ROS, Control, Autonomous Driving}.
 
+\cvevent{Software Integration Engineer}{Kudan}{11/2021 - Ongoing}{Bristol, UK}
+\begin{itemize}
+\item Created and maintained ROS/ROS2 packages for Kudan's SLAM Libraries.
+\item Developed the Backend of KudanStudio application using Python web frameworks.
+\item Created Python bindings for Kudan's C++ Libraries. 
+\item Supported DevOps team in maintaining ROS CI.
+\item Developed Kudan's AMR package and the examples launch files.
+\item Prepared Robotics demos for conventions like ROSCon and customers. 
+\item Continuously evaluated the SLAM algorithms against customer datasets.
+\item Supported customer in integrating the ROS packages and tune the SLAM parameters in their existing systems.
+\item \code{Key Technologies: SLAM, C++, ROS, Python}.
 \end{itemize}
 
 \divider
 
-\cvevent{Robotics Software Engineer}{Freelancing}{10/2020 - Ongoing}{Cairo, Egypt}
+\cvevent{R\&D Software Engineer}{Avelabs}{09/2018 - 11/2021}{Cairo, Egypt}
+Contributed to the development of Avelab's new Acoustic sensing product (AutoHears) by optimizing and porting existing algorithms to C/C++ for deployment on embedded hardware. 
 \begin{itemize}
-\item Developing several Robotics applications for the clients.
-\item Implementing the state of the art autonomous robotics algorithms. 
-\item Creating Software/Hardware architecture for new projects.
-\item Scrum master for several projects.
-	\item \code{Key Technologies ROS, AWS, Embedded Boards}.
-
+\item Optimized existing Beamforming and DOA algorithms by offloading the slow mathematics computations to TI DSPs.
+\item Created benchmarks for the new developed algorithms.
+\item Created ROS packages for the product.
+\item Collected datasets to validate our algorithms against it.
 \end{itemize}
-
-\divider
-
-\cvevent{R\&D Software Engineer}{Avelabs}{09/2018 - Ongoing}{Cairo, Egypt}
+Developer Advocate For Yonohub.com (A cloud-based system for Autonomous Vehicles,
+ADAS, and Robotics).
 \begin{itemize}
-\item Developer Advocate For Yonohub ( A cloud-based system for  Autonomous Vehicles, ADAS, and Robotics  \href{https://yonohub.com/}{yonohub.com} ). 
-\item Creating tech content for publication as articles, tutorials and showcase apps to effectively demonstrate use cases of Yonohub.
-\item Developing new Blocks from the state of the art ML/DL and ADAS Algorithms.
-\item Preparing Hardware for Local Deployment (Nvidia Jetson AGX Xavier, Raspberry Pi).
-\item Preparing AVS Datasets for Yonohub, e.g. KITTI, DeepDrive, ApolloScape and Comma.ai
-\item AV's Sensor Product Algorithms Development Engineer.
-\item Creating ROS packages for the product.
+\item  Created tech content for publication as articles, tutorials, and showcase apps to
+effectively demonstrate use cases of Yonohub.
+\item Developed new Blocks from the state of the art ML/DL and ADAS Algorithms.
+\item Configured Hardware for Local Deployment (Nvidia Jetson AGX Xavier, Raspberry Pi).
+\item Created AVS Datasets for Yonohub, e.g. KITTI, DeepDrive, ApolloScape and Comma.ai
 	\item \code{Key Technologies: Autonomous Vehicles, ROS, Autoware, ML/DL, Cloud, Embedded Boards}.
+\end{itemize}
+\divider
+
+\cvevent{Motion Planning and Control Engineer (Contractor)}{AeroVect}{11/2020 - 11/2021}{Remotely}
+\begin{itemize}
+\item Developed and implemented the motion planning and control software stack for The AeroVect Driver.
+\item Designed and developed safety and emergency stopping algorithms for The AeroVect Driver to ensure safe operation in all scenarios. 
+\item Designed and executed simulations for testing and verification of The AeroVect Driver, ensuring accuracy,robustness and reliabilit of the system.
+\item Integrating ROS with the other software components.
+	\item \code{Key Technologies ROS, C++,  Control Theory, Autonomous Driving}.
 
 \end{itemize}
 
-\divider
-
+\cvsection[page2sidebar]{Experience}
 \cvevent{Bachelor Thesis and Internship}{Daimler AG - Mercedes-Benz R\&D}{02/2017 - 08/2017}{Sindelfingen, Germany}
 \begin{itemize}
 \item Devleoping a Test Robot for Touch Devices Testing. 
@@ -149,18 +157,18 @@ and develop improvements.
 \end{itemize}
 \divider
 
-
-
-
-
-\clearpage
-
-\cvsection[page2sidebar]{Projects}
+\cvsection[]{Projects}
 \begin{itemize}
+\item \textbf{Edrak. C++ Library for Visual SLAM.}
+\href{https://github.com/HemaZ/Edrak}{GitHub}
 \item \textbf{Pure pursuit ROS package for path tracking.}
 \href{https://github.com/HemaZ/pure_pursuit}{GitHub}
-\item \textbf{Author of "Intro. to ROS2" Guided project.}
-\href{https://www.coursera.org/projects/ros2-intro}{Coursera}
+\item \textbf{C++ Implementation of a BlockChain.}
+\href{https://github.com/HemaZ/my_blockchain}{GitHub}
+\item \textbf{ngrok-ros. ROS package for ngrok.}
+\href{https://github.com/HemaZ/ngrok_ros}{GitHub}
+\item \textbf{ros2-android, ROS2 package to use android's phone sensors.}
+\href{https://github.com/HemaZ/ros2_android}{Github}
 \item \textbf{ROSbag2Videos, Extract videos from ROS bags.}
 \href{https://github.com/HemaZ/rosbag_2_videos}{Github}
 \item \textbf{Teaching an online ROS2 course on Youtube.}
